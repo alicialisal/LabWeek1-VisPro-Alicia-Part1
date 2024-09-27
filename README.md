@@ -19,15 +19,15 @@ Program ini merupakan program terminal sederhana yang dibuat dengan menggunakan 
 6. Terakhir, program akan menanyakan apakah anda ingin mengulang proses program dari awal. Program akan berhenti jika anda memasukkan "N" dan sebaliknya.
 
 ## Penjelasan fungsi
-1. loop(bool Function() condition, Function body)
+1. **loop(bool Function() condition, Function body)**
 Fungsi ini merupakan function untuk looping (menggantikan while) yang akan menjalankan _body_ selama kondisi _condition_ bernilai true.
-2. cetakPiramida(List<int> arrangka, int lenarr, int pilih)
+2. **cetakPiramida(List<int> arrangka, int lenarr, int pilih)**
 Fungsi ini digunakan utnuk mencetak angka dalam bentuk piramida.
-3. bubbleSort(List<int> arr, int lenarr)
+3. **bubbleSort(List<int> arr, int lenarr)**
 Fungsi ini untuk mengurutkan angka dari yang terkecil ke terbesar dengan metode Bubble Sort. Cara kerja metode ini adalah dengan membandingkan elemen angka di sebelah kiri dengan elemen angka di sebelah kanannya. Jika elemen angka di kiri bernilai lebih besar dibanding elemen angka di kanan, maka elemen angka di kiri akan bertukar posisi dengan elemen angka di kanan.
-4. inverse(List<int> arr, int lenarr)
+4. **inverse(List<int> arr, int lenarr)**
 Fungsi ini untuk membalik urutan elemen-elemen angka dalam array.
-5. shuffle(List<int> arr, int lenarr)
+5. **shuffle(List<int> arr, int lenarr)**
 Fungsi ini untuk mengacak urutan elemen-elemen angka dalam array.
-6. inputYN(String teks)
+6. **inputYN(String teks)**
 Fungsi ini untuk mengelola input Y/N (Ya / Tidak) dari user. Fungsi akan mengembalikan nilai true jika inputan user bernilai "Y". Sebaliknya, fungsi akan nilai false jika inputan user bernilai "N". 
